@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:dist="http://schemas.android.com/apk/distribution"
+          package="com.example.a1800">
+
+    <dist:module dist:instant="true"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_begin"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_begin"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity">
+        </activity>
+        <activity android:name=".food_content.FoodBelongConActivity">
+        </activity>
+        <activity android:name=".food_content.FoodConActivity">
+        </activity>
+        <activity android:name=".food_grid.FoodGridActivity">
+        </activity>
+        <activity android:name=".food_list.InfoListActivity">
+        </activity>
+        <activity android:name=".HomeMenuActivity">
+
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

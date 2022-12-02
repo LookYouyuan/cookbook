@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".food_content.FoodConActivity">
+    <LinearLayout
+            android:id="@+id/food_con_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <RelativeLayout
+                android:id="@+id/food_title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+            <ImageView
+                    android:id="@+id/food_back"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:src="@mipmap/back"
+                    android:layout_centerVertical="true"/>
+            <TextView
+                    android:id="@+id/food_con_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="朝天锅"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Gray"/>
+
+        </RelativeLayout>
+        <ImageView
+                android:id="@+id/food_image"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@mipmap/chaotianguo"
+                android:layout_margin="20sp"
+                android:scaleType="fitXY"/>
+        <TextView
+                android:id="@+id/food_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="主料：猪肠1盘 猪肚1盘 猪肉500g\n
+辅料：大葱适量 香菜适量 高汤适量 陈皮适量 炖肉料包1包 香菇适量 鱼丸适量 虾适量 干豆腐适量 菠菜适量 生菜适量 海带根适量 火锅面1包 粉丝100g 水烙馍适量 金针菇适量 黑木耳适量 花椒适量 大料适量 精盐适量 料酒适量 鸡精适量\n
+        做法：朝天锅的做法\n
+        1首先将猪肠放入盐水中反复搓洗，然后放入锅中，加入葱，姜，花椒大料，煮一会儿，去除异味，否则放入火锅内做汤底时，会盖过整个锅的香味。朝天锅的做法步骤1\n
+        2将猪肠找出，切段。朝天锅的做法步骤2\n
+        3将猪肚放入盐水中反复搓洗，切成条。朝天锅的做法步骤3\n
+        4在火锅中放入适量水，烧开。朝天锅的做法步骤4\n
+        5准备好炖肉料和自家保存的陈皮（有两年的时间了，这个越久药用价值越强，而且会加强食物的食补功效）。朝天锅的做法步骤5\n
+        6将炖肉料、陈皮、一盒高汤，放入烧开的锅中，放入盐，少量料酒，鸡精。朝天锅的做法步骤6\n
+        7煮一会，让调味料的味道浸入汤水中。朝天锅的做法步骤7\n
+        8将冻的猪肉卷从冰箱中取出，如果取早了，肉卷就不成形了，不好控制量。朝天锅的做法步骤8\n
+        9将猪肉卷、猪肚、猪肠放入锅中，将其中的味和油都煮到锅中。朝天锅的做法步骤9\n
+        10葱和香菜洗净。朝天锅的做法步骤10\n
+        11此时将葱和香菜切碎，交香菜洒在火锅表面，解油腻，增香。朝天锅的做法步骤11\n
+        12下面准备配菜和主食：将菠菜去根，洗净，装盘。朝天锅的做法步骤12\n
+        13将干豆腐卷成卷，用牙签固定，装盘。朝天锅的做法步骤13\n
+        14将省事根洗净，切菱形片。朝天锅的做法步骤14\n
+        15将虾放入盐水中，放入姜片，煮熟，当配菜。朝天锅的做法步骤15\n
+        16将金针菇去根，洗净，装盘。朝天锅的做法步骤16\n
+        17将生菜去根，洗净，装盘。朝天锅的做法步骤17\n
+        18将香菇去根，洗净，切十字花刀，装盘。朝天锅的做法步骤18\n
+        19准备粉丝和火锅面条。朝天锅的做法步骤19\n
+        20野生黑木耳提前泡发，去根，装盘。朝天锅的做法步骤20\n
+        21将鱼丸装盘，将干豆腐切宽片，卷成卷，装盘。朝天锅的做法步骤21\n
+        22将水烙馍准备好，这是早上提前做好的。朝天锅的做法步骤22\n
+        23如果你吃火锅吃腻了火锅面、粉丝、饺子，那就一定要试试这种吃法，超级好吃的肉肉，吸吮了火锅的汤汁与香味，加上自己喜欢的配菜，用水烙馍卷在一起，那味道超棒的，现在来介绍吃法：将水烙馍平铺在盘子上。朝天锅的做法步骤23\n
+        24从火锅中捞出肉，铺在馍上。朝天锅的做法步骤24\n
+        25洒上葱花或香菜。朝天锅的做法步骤25\n
+        26如图从一端开始卷，卷紧一些。朝天锅的做法步骤26\n
+        27如图卷好。还有另一种卷法，可以再饼上先铺一层生菜，重复（2）—（4）的步骤。朝天锅的做法步骤27"
+                android:textSize="16sp"/>
+                
+
+    </LinearLayout>
+
+</ScrollView>
